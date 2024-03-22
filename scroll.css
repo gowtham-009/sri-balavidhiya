@@ -1,0 +1,16 @@
+.header-c {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Default background color */
+    color: #fff;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+ 
+  
+  .header-scrolled {
+    background-color:white; /* New background color when scrolled */
+  }

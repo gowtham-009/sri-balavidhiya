@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+#banner{
+    width: 100%;
+    height: 690px;
+    background-image: url('image/DSC09270.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   position: relative;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+   
+    position: absolute;
+    top: 0%;
+  
+}
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-left: 2%;
+}
+.logo a{
+    text-decoration: none;
+    padding: 1%;
+    color: crimson;
+}
+.tit{
+    margin-top: 4px;
+    font-size: 19px;
+    font-weight: bold;
+    color: goldenrod;
+}
+.nav-links{
+    width: 59%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav-links li i{
+    margin-right: 3%;
+}
+.nav-links li i:hover{
+    color: red !important;
+}
+.form-add{
+    width: 45%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 22%;
+    left: 49%;
+}
+#about{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+.abt h2{
+    color: rgb(42, 2, 79);
+}
+.line{
+    width: 150px;
+    height: 3px ;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+.abt p{
+    line-height: 1.5;
+    text-align: center;
+    font-family:  sans-serif;
+}
+.main-card{
+    width: 100%;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
+#schl-env{
+    width: 100%;
+    height: auto;
+   
+    background-color: rgb(226, 226, 226);
+}
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+}
+.eve p{
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
+}
+#rules{
+    width: 100%;
+    height: 800px;
+    
+    background-image: url('image/schlbuild.JPG');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+#rules::before{
+    content: '';
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    inset: 0;
+    background: rgba(220, 221, 223, 0.80);
+}
+.main-rule{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    inset: 0;
+    padding: 10%;
+}
+.container-m{
+    border-radius: 10px;
+    background-color:rgb(2, 2, 65);
+    width: 100%;
+    height: 800px;
+    padding: 2%;
+}
+.container-m p{
+    text-align: left;
+}
+
+#plants{
+    width: 100%;
+    height: 700px;
+    background: url('image/20231014_110310.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plans{
+    height: 400px;
+}
+.pl img{
+ width: 100%;
+ height: 280px;
+}
+footer{
+    background-color: rgb(32, 3, 60);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.ttt a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
